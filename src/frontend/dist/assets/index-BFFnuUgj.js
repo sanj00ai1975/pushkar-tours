@@ -1,4 +1,4 @@
-const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutSection-Iv5jHZyB.js","assets/users-C8RkUFpz.js","assets/TourCompassSection-BiuKgZxE.js","assets/plane-RpuMQOyL.js","assets/DestinationsSection-Bv5FRiAe.js","assets/badge-GecIKixs.js","assets/clock-jpGWling.js","assets/star-COH3ZxP_.js","assets/WhyChooseUsSection-3YZwX7DK.js","assets/circle-check-Ft8a7g19.js","assets/TestimonialsSection-Btr6JcXg.js","assets/FAQSection--aWh9UEJ.js","assets/chevron-down-CoHu63O1.js","assets/DesignYourJourneySection-Ck1vK5k2.js","assets/TravelClarityHub-CNMbAQUh.js","assets/search-B93y2eR0.js","assets/JourneyAtlas-SUEciHiL.js"])))=>i.map(i=>d[i]);
+const __vite__mapDeps=(i,m=__vite__mapDeps,d=(m.f||(m.f=["assets/AboutSection-BO41_L1a.js","assets/users-TTPOh35B.js","assets/TourCompassSection-C82hBXvE.js","assets/plane-Bec88Cxk.js","assets/DestinationsSection-FzMz9iC6.js","assets/badge-VXcKOVgV.js","assets/clock-DNVhC43F.js","assets/star-D4Mq5ZmY.js","assets/WhyChooseUsSection-95Ey1K0y.js","assets/circle-check-C4vwqf-9.js","assets/TestimonialsSection-Dgk6zXyE.js","assets/FAQSection-jQgabk_A.js","assets/chevron-down-Bkb_TZ2x.js","assets/DesignYourJourneySection-B_6kUYWb.js","assets/TravelClarityHub-DBlhbA5b.js","assets/search-BK33jNK-.js","assets/JourneyAtlas-DI5QyRgz.js"])))=>i.map(i=>d[i]);
 var __defProp = Object.defineProperty;
 var __typeError = (msg) => {
   throw TypeError(msg);
@@ -25175,9 +25175,11 @@ const POLICY_LINKS = [
   },
   {
     label: "Privacy Policy",
-    href: "#privacy",
+    href: "/assets/privacy-policy.html",
     icon: Shield,
-    "data-ocid": "footer-privacy"
+    "data-ocid": "footer-privacy",
+    target: "_blank",
+    rel: "noopener noreferrer"
   },
   {
     label: "Cancellation Policy",
@@ -39603,57 +39605,57 @@ function Layout({ children }) {
   ] });
 }
 const HeroSection = reactExports.lazy(
-  () => __vitePreload(() => import("./HeroSection-BG02TTXc.js"), true ? [] : void 0).then((m) => ({
+  () => __vitePreload(() => import("./HeroSection-Cfd9h1r5.js"), true ? [] : void 0).then((m) => ({
     default: m.HeroSection
   }))
 );
 const AboutSection = reactExports.lazy(
-  () => __vitePreload(() => import("./AboutSection-Iv5jHZyB.js"), true ? __vite__mapDeps([0,1]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./AboutSection-BO41_L1a.js"), true ? __vite__mapDeps([0,1]) : void 0).then((m) => ({
     default: m.AboutSection
   }))
 );
 const TourCompassSection = reactExports.lazy(
-  () => __vitePreload(() => import("./TourCompassSection-BiuKgZxE.js"), true ? __vite__mapDeps([2,1,3]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./TourCompassSection-C82hBXvE.js"), true ? __vite__mapDeps([2,1,3]) : void 0).then((m) => ({
     default: m.TourCompassSection
   }))
 );
 const DestinationsSection = reactExports.lazy(
-  () => __vitePreload(() => import("./DestinationsSection-Bv5FRiAe.js"), true ? __vite__mapDeps([4,5,6,7]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./DestinationsSection-FzMz9iC6.js"), true ? __vite__mapDeps([4,5,6,7]) : void 0).then((m) => ({
     default: m.DestinationsSection
   }))
 );
 const WhyChooseUsSection = reactExports.lazy(
-  () => __vitePreload(() => import("./WhyChooseUsSection-3YZwX7DK.js"), true ? __vite__mapDeps([8,6,9]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./WhyChooseUsSection-95Ey1K0y.js"), true ? __vite__mapDeps([8,6,9]) : void 0).then((m) => ({
     default: m.WhyChooseUsSection
   }))
 );
 const TestimonialsSection = reactExports.lazy(
-  () => __vitePreload(() => import("./TestimonialsSection-Btr6JcXg.js"), true ? __vite__mapDeps([10,7]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./TestimonialsSection-Dgk6zXyE.js"), true ? __vite__mapDeps([10,7]) : void 0).then((m) => ({
     default: m.TestimonialsSection
   }))
 );
 const FounderSection = reactExports.lazy(
-  () => __vitePreload(() => import("./FounderSection-BoWycF-b.js"), true ? [] : void 0).then((m) => ({
+  () => __vitePreload(() => import("./FounderSection-D2E1d_au.js"), true ? [] : void 0).then((m) => ({
     default: m.FounderSection
   }))
 );
 const FAQSection = reactExports.lazy(
-  () => __vitePreload(() => import("./FAQSection--aWh9UEJ.js"), true ? __vite__mapDeps([11,12]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./FAQSection-jQgabk_A.js"), true ? __vite__mapDeps([11,12]) : void 0).then((m) => ({
     default: m.FAQSection
   }))
 );
 const DesignYourJourneySection = reactExports.lazy(
-  () => __vitePreload(() => import("./DesignYourJourneySection-Ck1vK5k2.js"), true ? __vite__mapDeps([13,9]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./DesignYourJourneySection-B_6kUYWb.js"), true ? __vite__mapDeps([13,9]) : void 0).then((m) => ({
     default: m.DesignYourJourneySection
   }))
 );
 const TravelClarityHub = reactExports.lazy(
-  () => __vitePreload(() => import("./TravelClarityHub-CNMbAQUh.js"), true ? __vite__mapDeps([14,5,15]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./TravelClarityHub-DBlhbA5b.js"), true ? __vite__mapDeps([14,5,15]) : void 0).then((m) => ({
     default: m.TravelClarityHub
   }))
 );
 const JourneyAtlas = reactExports.lazy(
-  () => __vitePreload(() => import("./JourneyAtlas-SUEciHiL.js"), true ? __vite__mapDeps([16,5,15,12,3]) : void 0).then((m) => ({
+  () => __vitePreload(() => import("./JourneyAtlas-DI5QyRgz.js"), true ? __vite__mapDeps([16,5,15,12,3]) : void 0).then((m) => ({
     default: m.JourneyAtlas
   }))
 );

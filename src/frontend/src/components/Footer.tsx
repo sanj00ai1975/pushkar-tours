@@ -33,9 +33,11 @@ const POLICY_LINKS = [
   },
   {
     label: "Privacy Policy",
-    href: "#privacy",
+    href: "/assets/privacy-policy.html",
     icon: Shield,
     "data-ocid": "footer-privacy",
+    target: "_blank" as const,
+    rel: "noopener noreferrer",
   },
   {
     label: "Cancellation Policy",

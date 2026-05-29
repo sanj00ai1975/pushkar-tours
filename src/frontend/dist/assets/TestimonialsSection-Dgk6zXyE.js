@@ -1,5 +1,5 @@
-import { c as createLucideIcon, j as jsxRuntimeExports, m as motion } from "./index-DI1rXC5t.js";
-import { S as Star } from "./star-COH3ZxP_.js";
+import { c as createLucideIcon, j as jsxRuntimeExports, m as motion } from "./index-BFFnuUgj.js";
+import { S as Star } from "./star-D4Mq5ZmY.js";
 /**
  * @license lucide-react v0.511.0 - ISC
  *

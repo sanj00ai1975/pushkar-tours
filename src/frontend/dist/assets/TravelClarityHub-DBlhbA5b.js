@@ -1,6 +1,6 @@
-import { a as useFAQs, r as reactExports, j as jsxRuntimeExports, h as Link, m as motion, I as Input } from "./index-DI1rXC5t.js";
-import { B as Badge } from "./badge-GecIKixs.js";
-import { A as ArrowLeft, S as Search } from "./search-B93y2eR0.js";
+import { a as useFAQs, r as reactExports, j as jsxRuntimeExports, h as Link, m as motion, I as Input } from "./index-BFFnuUgj.js";
+import { B as Badge } from "./badge-VXcKOVgV.js";
+import { A as ArrowLeft, S as Search } from "./search-BK33jNK-.js";
 const CATEGORIES = ["All", "Domestic", "International", "Spiritual"];
 const CATEGORY_DESCRIPTIONS = {
   Domestic: "Everything you need to know about travelling within India — from Himalayan escapes to coastal retreats.",

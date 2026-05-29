@@ -1,5 +1,5 @@
-import { a as useFAQs, j as jsxRuntimeExports, m as motion, r as reactExports, A as AnimatePresence } from "./index-DI1rXC5t.js";
-import { C as ChevronDown } from "./chevron-down-CoHu63O1.js";
+import { a as useFAQs, j as jsxRuntimeExports, m as motion, r as reactExports, A as AnimatePresence } from "./index-BFFnuUgj.js";
+import { C as ChevronDown } from "./chevron-down-Bkb_TZ2x.js";
 function FAQItem({
   question,
   answer,
