@@ -1,0 +1,73 @@
+import type { backendInterface } from "../backend";
+
+export const mockBackend: backendInterface = {
+  addFAQ: async () => BigInt(1),
+  addTourPackage: async () => BigInt(1),
+  getFAQs: async () => [
+    {
+      id: BigInt(1),
+      question: "What documents are required for international travel?",
+      order: BigInt(1),
+      category: "International",
+      answer: "You will need a valid passport, visa, and travel insurance. Some destinations may also require vaccination certificates.",
+    },
+    {
+      id: BigInt(2),
+      question: "How do I book a customized tour package?",
+      order: BigInt(2),
+      category: "Domestic",
+      answer: "Simply fill out our inquiry form or contact us via WhatsApp at +91-99309 98580. Our team will create a personalized itinerary for you.",
+    },
+    {
+      id: BigInt(3),
+      question: "What is included in the Char Dham Yatra package?",
+      order: BigInt(3),
+      category: "Spiritual",
+      answer: "Our Char Dham Yatra package includes accommodation, transportation, guided tours, and all temple entry arrangements. Meals can be added on request.",
+    },
+    {
+      id: BigInt(4),
+      question: "What is the best season to visit Leh-Ladakh?",
+      order: BigInt(4),
+      category: "Domestic",
+      answer: "The best time to visit Leh-Ladakh is from June to September when the mountain passes are open and the weather is pleasant.",
+    },
+  ],
+  getInquiries: async () => [],
+  getTourPackages: async () => [
+    {
+      id: BigInt(1),
+      title: "Golden Triangle Explorer",
+      destination: "Delhi - Agra - Jaipur",
+      description: "Experience India's most iconic cultural triangle with handcrafted itineraries.",
+      price_inr_max: BigInt(85000),
+      price_inr_min: BigInt(45000),
+      highlights: ["Taj Mahal sunrise visit", "Amber Fort jeep ride", "Old Delhi heritage walk"],
+      duration_days: BigInt(7),
+      best_season: "October to March",
+    },
+    {
+      id: BigInt(2),
+      title: "Spiritual Char Dham Yatra",
+      destination: "Uttarakhand",
+      description: "A sacred pilgrimage to the four divine abodes nestled in the Himalayas.",
+      price_inr_max: BigInt(120000),
+      price_inr_min: BigInt(75000),
+      highlights: ["Kedarnath temple", "Badrinath darshan", "Gangotri & Yamunotri"],
+      duration_days: BigInt(14),
+      best_season: "May to June & September to October",
+    },
+    {
+      id: BigInt(3),
+      title: "Leh-Ladakh Adventure",
+      destination: "Jammu & Kashmir",
+      description: "Journey through the roof of the world with dramatic landscapes and ancient monasteries.",
+      price_inr_max: BigInt(95000),
+      price_inr_min: BigInt(55000),
+      highlights: ["Pangong Lake", "Nubra Valley camel ride", "Magnetic Hill"],
+      duration_days: BigInt(10),
+      best_season: "June to September",
+    },
+  ],
+  submitInquiry: async () => BigInt(1),
+};

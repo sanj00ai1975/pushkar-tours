@@ -1,0 +1,58 @@
+// Version: 1.0.0
+type FAQId__1021982453 = Nat;
+type FAQ__510230981 =
+  {
+    answer : Text;
+    category : Text;
+    id : FAQId__1021982453;
+    order : Nat;
+    question : Text
+  };
+type InquiryId__494871271 = Nat;
+type Inquiry__954613087 =
+  {
+    destination : Text;
+    email : Text;
+    id : InquiryId__494871271;
+    message : Text;
+    name : Text;
+    phone : Text;
+    timestamp : Timestamp__301639476;
+    travel_dates : Text
+  };
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type PackageId__695495483 = Nat;
+type Timestamp__301639476 = Int;
+type TourPackage__364126460 =
+  {
+    best_season : Text;
+    description : Text;
+    destination : Text;
+    duration_days : Nat;
+    highlights : [Text];
+    id : PackageId__695495483;
+    price_inr_max : Nat;
+    price_inr_min : Nat;
+    title : Text
+  };
+actor {
+  stable faqs :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?FAQ__510230981]];
+      var elementIndex : Nat__490723111
+    };
+  stable inquiries :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Inquiry__954613087]];
+      var elementIndex : Nat__490723111
+    };
+  stable packages :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?TourPackage__364126460]];
+      var elementIndex : Nat__490723111
+    }
+};

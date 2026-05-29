@@ -1,0 +1,62 @@
+type TourPackage = 
+ record {
+   best_season: text;
+   description: text;
+   destination: text;
+   duration_days: nat;
+   highlights: vec text;
+   id: PackageId;
+   price_inr_max: nat;
+   price_inr_min: nat;
+   title: text;
+ };
+type Timestamp = int;
+type PackageId = nat;
+type NewTourPackage = 
+ record {
+   best_season: text;
+   description: text;
+   destination: text;
+   duration_days: nat;
+   highlights: vec text;
+   price_inr_max: nat;
+   price_inr_min: nat;
+   title: text;
+ };
+type NewFAQ = 
+ record {
+   answer: text;
+   category: text;
+   order: nat;
+   question: text;
+ };
+type InquiryId = nat;
+type Inquiry = 
+ record {
+   destination: text;
+   email: text;
+   id: InquiryId;
+   message: text;
+   name: text;
+   phone: text;
+   timestamp: Timestamp;
+   travel_dates: text;
+ };
+type FAQId = nat;
+type FAQ = 
+ record {
+   answer: text;
+   category: text;
+   id: FAQId;
+   order: nat;
+   question: text;
+ };
+service : {
+  addFAQ: (faq: NewFAQ) -> (FAQId);
+  addTourPackage: (pkg: NewTourPackage) -> (PackageId);
+  getFAQs: () -> (vec FAQ) query;
+  getInquiries: () -> (vec Inquiry) query;
+  getTourPackages: () -> (vec TourPackage) query;
+  submitInquiry: (name: text, email: text, phone: text, destination: 
+   text, travel_dates: text, message: text) -> (InquiryId);
+}
